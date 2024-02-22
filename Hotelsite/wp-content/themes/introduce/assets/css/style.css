@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    position: relative;
+}
+
+html {
+    font-size: 83.1%;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+/* ------------------------------------------------------font-size group------------------------------------------------------------- */
+
+.f-1 {
+    font-size: 4.6rem;
+}
+
+.f-2 {
+    font-size: 2.0rem;
+}
+
+.f-3 {
+    font-size: 1.1rem;
+}
+.f-60{
+    font-size: 6rem;
+ }
+ .f-35{
+    font-size: 3.5rem;
+ }
+/* Top page */
+
+p {
+    margin: 0;
+}
+
+.white {
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.top-page {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2048px;
+    width: 100%;
+    height: 100vh;
+}
+
+.top-page .top-page-introduce {
+    text-align: center;
+    width: 30%;
+    margin-left: 20%;
+}
+
+.top-page .top-page-introduce div {
+    margin-bottom: 10%;
+}
+
+.top-menu {
+    overflow: scroll;
+    width: 33%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-image: url("../images/素材/menu_buck.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-menu-content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 100px;
+    border: none;
+}
+
+.top-menu-content a {
+    margin-top: 15%;
+}
+
+.category li {
+    text-align: center;
+    list-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: start;
+}
+
+.category li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*------------------------------------------------------------------------- first page1 start---------------------------------------------------------- */
+
+.first-page-container {
+    width: 47%;
+    margin-top: 9.7%;
+    margin-left: 9.7%;
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+}
+
+.column {
+    margin-top: 1%;
+    width: 27%;
+    height: 29%;
+    /* height: 28%; */
+}
+
+
+/* --------------------------------------------------------------------Second page start ----------------------------------------------------*/
+.second-1-1 {
+    width: 100%;
+    height: 18vh;
+    margin: 0.5% 0;
+    position: relative;
+    overflow: hidden;
+}
+.second-1-2 {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    text-align: center;
+    height: 20%;
+    width: 35%;
+    clip-path: polygon(20% 0, 0 100%, 100% 100%, 100% 0);
+    right: -1px;
+    bottom: -1px;
+    padding-top: 0.5vw;
+    padding-left: 2vw;
+}
+
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 0 10%;
+}
+
+
+/* set the size and position of button on web */
+
+.top-menu-content ul ul {
+    display: none;
+}
+
+.top-menu-content ul ul.active {
+    display: block;
+}
+
+.list_items {
+    min-width: 185px;
+    text-align: center;
+}
+.top-menu-content ul ul li {
+    display: block;
+}
+
+.top-menu-content ul ul li a {
+    color: rgb(187, 161, 106);
+    text-decoration: none;
+}
+
+
+/* -------------------------------------------------------3page section start ------------------------------------------------------*/
+.container{
+    max-width: 1648px;
+    width: 80%;
+    margin-inline: auto;
+    padding: 9.7% 0;
+}
+
+.img-container-1{
+    width: 100%;
+    height: 44%;
+    position: relative;
+}
+
+.img-container-1-text{
+    width: 50%;
+    position: absolute;
+    right: -1px;
+    bottom:-1px;
+    background-color: white;
+    padding-left: 3%;
+}
+
+.utowa{
+    height: 30vh;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.img-container-2{
+    width: 50%;
+
+}
+.p-width{
+    width: 45%;
+}
+.block{
+    display: block;
+}
+
+
+/* responsive */
+/* ---------------------------------------------------1024 x 768--------------------------------------------------------------------------------- */
+@media only screen and (min-width: 599px) and (max-width: 1024px)  {
+ /* CSS styles specific to iPad Air landscape mode */
+ html{
+    font-size: 43%;
+ }
+ .logo{
+    width: 17vh;
+ }
+
+
+}
+@media only screen and (min-width: 280px) and (max-width:598px){
+    .top-page {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 598px;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .top-page .top-page-introduce {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .top-page .top-page-introduce div {
+        margin-bottom: 10%;
+    }
+    .container{
+        width: 98%;
+    }
+    .utowa{
+        height: 1vh;
+    }
+    .top-menu {
+        display: none;
+        overflow: scroll;
+        width: 100%;
+        height: auto;
+        position: relative;
+        background-image: url("../images/素材/menu_buck.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .top-menu-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        border: none;
+        padding: 20% 0;
+    }
+    .logo{
+        width: 40px;
+    }
+    .category li {
+        list-style: none;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    html {
+        font-size: 40%;
+      }
+}

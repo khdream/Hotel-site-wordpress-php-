@@ -1,0 +1,301 @@
+#: includes/alg-back-button-functions.php:48
+#: includes/alg-back-button-functions.php:83
+#: includes/class-alg-back-button-wp-widget.php:83
+#: includes/pro/class-alg-back-button-widget-pro.php:72
+#: includes/settings/class-alg-back-button-settings.php:335
+msgid "Back"
+msgstr ""
+
+#: includes/class-alg-back-button-widget.php:146
+msgid "Settings"
+msgstr ""
+
+#: includes/class-alg-back-button-widget.php:149
+msgid "Go Pro"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:26
+msgid "Add back button to your site."
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:28
+#: includes/settings/class-alg-back-button-settings.php:49
+#: includes/settings/class-alg-back-button-settings.php:223
+msgid "Back Button"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:70
+msgid "Title"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:74
+msgid "Before button"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:78
+msgid "After button"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:82
+msgid "Button label"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:86
+msgid "Button HTML class"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:87
+#: includes/class-alg-back-button-wp-widget.php:92
+#, php-format
+msgid "E.g. try %s"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:91
+msgid "Button HTML style"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:96
+msgid "Button type"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:100
+#: includes/settings/class-alg-back-button-settings.php:278
+msgid "Button"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:101
+msgid "Simple text"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:105
+msgid "Button JS function"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:114
+msgid "Hide on front page"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:118
+#: includes/settings/class-alg-back-button-settings.php:248
+#: includes/settings/class-alg-back-button-settings.php:301
+#: includes/settings/class-alg-back-button-settings.php:321
+#: includes/settings/class-alg-back-button-settings.php:375
+#: includes/settings/class-alg-back-button-settings.php:405
+msgid "No"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:119
+#: includes/settings/class-alg-back-button-settings.php:249
+#: includes/settings/class-alg-back-button-settings.php:302
+#: includes/settings/class-alg-back-button-settings.php:322
+#: includes/settings/class-alg-back-button-settings.php:376
+#: includes/settings/class-alg-back-button-settings.php:406
+msgid "Yes"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:126
+msgid "Hide on URL param"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:129
+msgid "Param name"
+msgstr ""
+
+#: includes/class-alg-back-button-wp-widget.php:135
+msgid "Param value"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:48
+#: includes/settings/class-alg-back-button-settings.php:64
+msgid "Back Button Settings"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:219
+msgid "Widget"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:222
+#, php-format
+msgid ""
+"The plugin creates \"%s\" widget in %s. You can add and configure it there."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:224
+msgid "Appearance > Widgets"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:228
+msgid "Shortcode"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:231
+#, php-format
+msgid ""
+"You can also add the button anywhere on your site with %s shortcode, e.g.: %s"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:237
+msgid "Menu Options"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:240
+msgid "Here you can add the back button to your menu(s)."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:243
+#: includes/settings/class-alg-back-button-settings.php:316
+msgid "Enable section"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:256
+#: includes/settings/class-alg-back-button-settings.php:273
+msgid "Menu location(s)"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:262
+#: includes/settings/class-alg-back-button-settings.php:273
+#, php-format
+msgid "Alternatively you can use the \"%s\" option."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:262
+#: includes/settings/class-alg-back-button-settings.php:267
+msgid "Menu(s)"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:263
+#: includes/settings/class-alg-back-button-settings.php:274
+#, php-format
+msgid "You can select multiple menus by holding %s key."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:263
+#: includes/settings/class-alg-back-button-settings.php:274
+msgid "Ctrl"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:264
+msgid "Button will be added as the last item in selected menu location(s)."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:275
+msgid "Button will be added as the last item in selected menu(s)."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:283
+#: includes/settings/class-alg-back-button-settings.php:292
+#: includes/settings/class-alg-back-button-settings.php:334
+#: includes/settings/class-alg-back-button-settings.php:386
+#, php-format
+msgid "If empty, then the default value will be used: %s."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:287
+msgid "Item template"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:296
+msgid "Replace URL"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:304
+#, php-format
+msgid ""
+"This is an alternative method for adding the back button: add a \"Custom Link"
+"\" to your menu(s) (in %s), and set its \"URL\" to %s."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:305
+msgid "Appearance > Menus"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:310
+msgid "Floating Button Options"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:313
+msgid "Here you can add the back button as a floating button."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:329
+#: includes/settings/class-alg-back-button-settings.php:378
+msgid "Label"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:338
+msgid "Position"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:343
+msgid "Bottom right"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:344
+msgid "Bottom left"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:345
+msgid "Top right"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:346
+msgid "Top left"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:350
+msgid "Horizontal margin"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:355
+#: includes/settings/class-alg-back-button-settings.php:365
+#, php-format
+msgid "If empty, then the default value will be used: %s px."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:357
+#: includes/settings/class-alg-back-button-settings.php:367
+msgid "pixels"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:360
+msgid "Vertical margin"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:370
+msgid "Set as shortcode"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:378
+#, php-format
+msgid "When enabled, \"%s\" option will be ignored."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:388
+#, php-format
+msgid ""
+"Please note: %s shortcode attribute <strong>must</strong> include %s class."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:393
+msgid "Font Awesome"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:396
+#, php-format
+msgid ""
+"If you are not loading Font Awesome anywhere else on your site, and using "
+"icon in the button, e.g. %s, you can load it here."
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:400
+msgid "Load"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:410
+msgid "URL"
+msgstr ""
+
+#: includes/settings/class-alg-back-button-settings.php:414
+#, php-format
+msgid "E.g.: %s"
+msgstr ""
